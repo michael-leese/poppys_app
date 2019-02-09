@@ -1,3 +1,5 @@
+console.log('connected');
+
 function poppyFn(){
   
   document.querySelector('#poppy-pic').style.display = "block";
