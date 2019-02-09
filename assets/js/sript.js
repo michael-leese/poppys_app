@@ -7,8 +7,8 @@ function poppyFn(){
  function closePoppy() {
    document.querySelector('#poppy-pic').style.display = "none";
    clearInterval(closePop);
- }
-}
+ };
+};
 
 function redFn(){
   
@@ -19,8 +19,8 @@ function redFn(){
  function closePoppy() {
    document.querySelector('#red-pic').style.display = "none";
    clearInterval(closePop);
- }
-}
+ };
+};
 
 function yellowFn(){
   
@@ -31,8 +31,8 @@ function yellowFn(){
  function closePoppy() {
    document.querySelector('#yellow-pic').style.display = "none";
    clearInterval(closePop);
- }
-}
+ };
+};
 
 function blueFn(){
   
@@ -43,8 +43,8 @@ function blueFn(){
  function closePoppy() {
    document.querySelector('#blue-pic').style.display = "none";
    clearInterval(closePop);
- }
-}
+ };
+};
 
 function pinkFn(){
   
@@ -55,5 +55,5 @@ function pinkFn(){
  function closePoppy() {
    document.querySelector('#pink-pic').style.display = "none";
    clearInterval(closePop);
- }
-}
+ };
+};
