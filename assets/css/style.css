@@ -1,87 +1,101 @@
 body {
-  margin:0;
-  padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
-  width:100vw;
-  height:100vh;
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.title{
-  position: absolute;
-  width:max-content;
-  background-color: rgba(195, 191, 191, 0.5);
-  border-radius:10px;
-  text-align:center;
-  top:43%;
-  left:33%;
+
+.title {
+    position: absolute;
+    width: max-content;
+    background-color: rgba(195, 191, 191, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    top: 43%;
 }
-.row{
-  display:flex;
-  width:100%;
-  height:50%;
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 50%;
 }
-.red{
-  width:50%;
-  height:100%;
-  background-color: #ff0000;
+
+.red {
+    width: 50%;
+    height: 100%;
+    background-color: #ff0000;
 }
-.yellow{
-  width:50%;
-  height:100%;
-  background-color: #faff05;
+
+.yellow {
+    width: 50%;
+    height: 100%;
+    background-color: #faff05;
 }
-.blue{
-  width:50%;
-  height:100%;
-  background-color: #0083ff;
+
+.blue {
+    width: 50%;
+    height: 100%;
+    background-color: #0083ff;
 }
-.pink{
-  width:50%;
-  height:100%;
-  background-color: #ff00bf;
+
+.pink {
+    width: 50%;
+    height: 100%;
+    background-color: #ff00bf;
 }
-.poppy-pic{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100vw;
-    height:100vh;
-    display:none;
+
+.poppy-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
 }
-.red-pic{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100vw;
-    height:100vh;
-    display:none;
+
+.red-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
 }
-.yellow-pic{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100vw;
-    height:100vh;
-    display:none;
+
+.yellow-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
 }
-.blue-pic{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100vw;
-    height:100vh;
-    display:none;
+
+.blue-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
 }
-.pink-pic{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100vw;
-    height:100vh;
-    display:none;
+
+.pink-pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
 }
-.img{
-    width:100%;
-    height:100%;
+
+.img {
+    width: 100%;
+    height: 100%;
 }
